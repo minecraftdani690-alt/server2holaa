@@ -1,0 +1,529 @@
+[13Nov2025 07:43:38.764] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.206, --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[13Nov2025 07:43:38.768] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1
+[13Nov2025 07:43:38.769] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[13Nov2025 07:43:41.068] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Nov2025 07:43:41.129] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/server2holaa/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2371!/ Service=ModLauncher Env=SERVER
+[13Nov2025 07:43:41.822] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.206:server]
+[13Nov2025 07:43:41.931] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.206-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.206/neoforge-21.1.206-universal.jar]], reader: mod manifest]
+[13Nov2025 07:43:41.954] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[1.21.1] SecurityCraft v1.10.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.957] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appleskin-neoforge-mc1.21-3.0.7.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.960] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.964] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.1.0.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.967] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bossesrise-1.21.1-neoforge-1.0.9.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.970] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.973] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "choccos_mobs-0.1.3-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.975] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.988] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-8.11.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.992] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.13.13_mc1.21.1.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.995] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:41.998] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DungeonsArise-1.21.x-2.1.64-release.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dynamiclights-v1.9-mc1.17-1.21.9-mod.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.005] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elevatorid-neoforge-1.21.1-1.11.4.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-12.0.0.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.010] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ExtraGems-1.21-(v.3.0.5-NEO).jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.012] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ForgeConfigAPIPort-v21.1.4-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.014] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.9.6.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.016] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.8.2.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.018] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.020] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "him-2.0.2-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.025] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "IceAndFireCE-2.0-beta.7-1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.028] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.25.0.321.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.031] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.52.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.033] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jupiter-2.2.2-neoforge.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.035] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mss-1.3.5-1.21.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.037] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MutantMonsters-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.039] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mvs-4.3.0-1.21.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.042] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "naturallychargedcreepers-1.21.1-3.5.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.045] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PlayerRevive_NEOFORGE_v2.0.36_mc1.21.1.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.048] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.1.38-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.050] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Rainbows-1.21-1.5.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.057] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "refurbished_furniture-neoforge-1.21.1-1.0.20.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.059] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.061] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sleep-v.3.2.2.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.064] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tombstone-neoforge-1.21.1-9.4.8.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.066] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "treeharvester-1.21.1-9.1.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.108] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.6.3003-universal.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.120] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "u_team_core-neoforge-1.21.1-5.6.2.384.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.122] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "uranus-2.4-1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.131] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "useful_backpacks-neoforge-1.21.1-3.0.2.129.jar" [locator: {mods folder locator at /workspaces/server2holaa/servidor_minecraft/mods}, reader: mod manifest]
+[13Nov2025 07:43:42.850] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /workspaces/server2holaa/servidor_minecraft/mods/architectury-13.0.8-neoforge.jar
+[13Nov2025 07:43:42.850] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: /workspaces/server2holaa/servidor_minecraft/mods/expandability-12.0.0.jar
+[13Nov2025 07:43:42.850] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 35 dependencies adding them to mods collection
+[13Nov2025 07:43:42.850] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.206-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.850] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-fixes-worldgen-threading-issues-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.850] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-threading-lighting-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-fixes-chunkio-threading-issues-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-client-uncapvd-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-rewrites-chunk-serializer-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.206.jar" [parent: neoforge-21.1.206-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.52.jar, locator: jarinjar]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-server-utils-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.18-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.52.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-natives-math-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-dfc-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-fixes-general-threading-issues-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-notickvd-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-neoforge-0.2.0-beta.6.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jctools-core-4.0.5.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-worldgen-general-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-chunkio-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-math-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-rewrites-chunk-system-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "rxjava-3.1.12.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.6.3003.jar" [parent: twilightforest-1.21.1-4.6.3003-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.2.0-beta.6.jar" [parent: mixinsquared-neoforge-0.2.0-beta.6.jar, locator: jarinjar]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "reactive-streams-1.0.4.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-base-mc1.21.1-0.3.0+alpha.0.82-all.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-rewrites-chunkio-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-fixes-worldgen-vanilla-bugs-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-worldgen-vanilla-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integration-neoforge-0.2.jar" [parent: IceAndFireCE-2.0-beta.7-1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "u_team_core-neoforge-coremod-1.21.1-5.6.2.384.jar" [parent: u_team_core-neoforge-1.21.1-5.6.2.384.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-scheduling-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.854] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1-SNAPSHOT.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.52.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.854] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-allocs-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[13Nov2025 07:43:42.854] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "asyncutil-0.1.0.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[13Nov2025 07:43:42.854] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "exp4j-0.4.8.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[13Nov2025 07:43:42.856] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AppleSkin 3.0.7+mc1.21 (appleskin)
+		Architectury 13.0.8 (architectury)
+		Artifacts 13.1.0 (artifacts)
+		Bosses'Rises 1.0.9 (block_factorys_bosses)
+		Chocco's Mobs 0.1.3 (choccos_mobs)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Collective 8.11 (collective)
+		Common Networking 1.0.18-1.21.1 (commonnetworking)
+		Concurrent Chunk Management Engine 0.3.0+alpha.0.82+1.21.1 (c2me)
+		Concurrent Chunk Management Engine (Base) 0.3.0+alpha.0.82+1.21.1 (c2me_base)
+		Concurrent Chunk Management Engine (Client/Uncap View Distance) 0.3.0+alpha.0.82+1.21.1 (c2me_client_uncapvd)
+		Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues) 0.3.0+alpha.0.82+1.21.1 (c2me_fixes_chunkio_threading_issues)
+		Concurrent Chunk Management Engine (Fixes/General/Threading Issues) 0.3.0+alpha.0.82+1.21.1 (c2me_fixes_general_threading_issues)
+		Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues) 0.3.0+alpha.0.82+1.21.1 (c2me_fixes_worldgen_threading_issues)
+		Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs) 0.3.0+alpha.0.82+1.21.1 (c2me_fixes_worldgen_vanilla_bugs)
+		Concurrent Chunk Management Engine (No Tick View Distance) 0.3.0+alpha.0.82+1.21.1 (c2me_notickvd)
+		Concurrent Chunk Management Engine (Optimizations/Chunk IO) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_chunkio)
+		Concurrent Chunk Management Engine (Optimizations/Density Function Compiler) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_dfc)
+		Concurrent Chunk Management Engine (Optimizations/General WorldGen) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_worldgen_general)
+		Concurrent Chunk Management Engine (Optimizations/Math) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_math)
+		Concurrent Chunk Management Engine (Optimizations/Memory Allocations) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_allocs)
+		Concurrent Chunk Management Engine (Optimizations/Natives Math) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_natives_math)
+		Concurrent Chunk Management Engine (Optimizations/Scheduling) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_scheduling)
+		Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_worldgen_vanilla)
+		Concurrent Chunk Management Engine (Rewrites/Chunk IO) 0.3.0+alpha.0.82+1.21.1 (c2me_rewrites_chunkio)
+		Concurrent Chunk Management Engine (Rewrites/Chunk Serializer) 0.3.0+alpha.0.82+1.21.1 (c2me_rewrites_chunk_serializer)
+		Concurrent Chunk Management Engine (Rewrites/Chunk System) 0.3.0+alpha.0.82+1.21.1 (c2me_rewrites_chunk_system)
+		Concurrent Chunk Management Engine (Server Utils) 0.3.0+alpha.0.82+1.21.1 (c2me_server_utils)
+		Concurrent Chunk Management Engine (Threading/Lighting) 0.3.0+alpha.0.82+1.21.1 (c2me_threading_lighting)
+		Corail Tombstone 9.4.8 (tombstone)
+		CreativeCore 2.13.13 (creativecore)
+		Curios API 9.5.1+1.21.1 (curios)
+		Dynamic Lights 1.9+mod (dynamiclights)
+		ElevatorMod 1.21.1-1.11.4 (elevatorid)
+		ExpandAbility 12.0.0 (expandability)
+		Extra Gems 3.0.5 (extragems)
+		Forge Config API Port 21.1.4 (forgeconfigapiport)
+		Framework 0.9.6 (framework)
+		GeckoLib 4 4.8.2 (geckolib)
+		GlitchCore 2.1.0.0 (glitchcore)
+		him 2.0.1 (him)
+		Ice And Fire Community Edition 2.0-beta.7 (iceandfire)
+		Integration 0.2 (integration)
+		Journeymap 1.21.1-6.0.0-beta.52 (journeymap)
+		JourneyMap API 2.0.0 (journeymap_api)
+		Jupiter 2.2.2 (jupiter)
+		Just Enough Items 19.25.0.321 (jei)
+		Minecraft 1.21.1 (minecraft)
+		Moog's Soaring Structures 1.3.5-1.21 (mss)
+		Moog's Voyager Structures 4.3.0-1.21 (mvs)
+		MrCrayfish's Furniture Mod: Refurbished 1.0.20 (refurbished_furniture)
+		Mutant Monsters 21.1.0 (mutantmonsters)
+		Naturally Charged Creepers 3.5 (naturallychargedcreepers)
+		NeoForge 21.1.206 (neoforge)
+		PlayerRevive 2.0.36 (playerrevive)
+		Puzzles Lib 21.1.38 (puzzleslib)
+		Rainbows 1.5 (rainbows)
+		SecurityCraft 1.10 (securitycraft)
+		Serene Seasons 10.1.0.3 (sereneseasons)
+		Sleep 1-v.3.2.2 (mr_sleep)
+		The Twilight Forest 4.6.3003 (twilightforest)
+		Tree Harvester 9.1 (treeharvester)
+		U Team Core 5.6.2.384 (uteamcore)
+		Uranus 2.4 (uranus)
+		Useful Backpacks 3.0.2.129 (usefulbackpacks)
+		When Dungeons Arise 2.1.64 (dungeons_arise)
+[13Nov2025 07:43:44.079] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[13Nov2025 07:43:44.267] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Nov2025 07:43:44.411] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[13Nov2025 07:43:44.641] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.threading.lighting.mixin
+[13Nov2025 07:43:44.643] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.671] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13Nov2025 07:43:44.671] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13Nov2025 07:43:44.672] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[13Nov2025 07:43:44.681] [main/WARN] [C2ME Modules Manager/]: Disabling com.ishland.c2me.opts.natives_math.mixin due to incompatible Java version, see debug logs for details
+[13Nov2025 07:43:44.682] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.opts.natives_math.mixin
+[13Nov2025 07:43:44.683] [main/WARN] [mixin/]: Reference map 'rainbows.refmap.json' for rainbows.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.683] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[13Nov2025 07:43:44.684] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.686] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.686] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.686] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.687] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.687] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.math.mixin
+[13Nov2025 07:43:44.689] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[13Nov2025 07:43:44.692] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.base.mixin
+[13Nov2025 07:43:44.769] [main/INFO] [C2ME Config System/]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[13Nov2025 07:43:44.771] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[13Nov2025 07:43:44.774] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[13Nov2025 07:43:44.776] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[13Nov2025 07:43:44.782] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[13Nov2025 07:43:44.786] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[13Nov2025 07:43:44.790] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.792] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.792] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.server.utils.mixin
+[13Nov2025 07:43:44.795] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.dfc.mixin
+[13Nov2025 07:43:44.795] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.opts.dfc.mixin
+[13Nov2025 07:43:44.796] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.797] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.799] [main/WARN] [mixin/]: Reference map 'securitycraft.refmap.json' for securitycraft.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.799] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.notickvd.mixin
+[13Nov2025 07:43:44.825] [main/WARN] [mixin/]: Reference map 'mixins.tombstone.refmap.json' for tombstone.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.826] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[13Nov2025 07:43:44.827] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[13Nov2025 07:43:44.835] [main/WARN] [mixin/]: Reference map 'refurbished_furniture.refmap.json' for refurbished_furniture.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.845] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[13Nov2025 07:43:44.848] [main/WARN] [mixin/]: Reference map 'playerrevive.mixin.refmap.json' for playerrevive.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Nov2025 07:43:44.851] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.allocs.mixin
+[13Nov2025 07:43:45.213] [main/WARN] [mixin/]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.thread.SchedulingUtil)
+[13Nov2025 07:43:46.068] [main/WARN] [mixin/]: Error loading class: com/github/tartaricacid/touhoulittlemaid/entity/passive/EntityMaid (java.lang.ClassNotFoundException: com.github.tartaricacid.touhoulittlemaid.entity.passive.EntityMaid)
+[13Nov2025 07:43:46.154] [main/INFO] [C2ME Config System/]: Disabling config vanillaWorldGenOptimizations.optimizeStructureWeightSampler: Incompatible with twilightforest@4.6.3003 (*) (defined in c2me)
+[13Nov2025 07:43:46.177] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[13Nov2025 07:43:46.177] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found mixins.block_factorys_bosses.json:PlayerRollMixin from mod block_factorys_bosses
+[13Nov2025 07:43:46.184] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/OptionInstance (java.lang.ClassNotFoundException: net.minecraft.client.OptionInstance)
+[13Nov2025 07:43:46.184] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.OptionInstance was not found c2me-client-uncapvd.mixins.json:ISimpleOption from mod c2me_client_uncapvd
+[13Nov2025 07:43:46.190] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Options for invalid dist DEDICATED_SERVER
+[13Nov2025 07:43:46.191] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Options (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Options for invalid dist DEDICATED_SERVER)
+[13Nov2025 07:43:46.191] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Options was not found c2me-client-uncapvd.mixins.json:MixinGameOptions from mod c2me_client_uncapvd
+[13Nov2025 07:43:46.194] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages)
+[13Nov2025 07:43:46.195] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net.caffeinemc.sodium.config.user.UserConfigCategories)
+[13Nov2025 07:43:46.196] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumGameOptionPages)
+[13Nov2025 07:43:46.197] [main/WARN] [mixin/]: Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net.vulkanmod.config.option.Options)
+[13Nov2025 07:43:47.367] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13Nov2025 07:43:47.497] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at MC-BOOTSTRAP/com.github.oshi@6.4.10/oshi.SystemInfo.<clinit>(SystemInfo.java:40) ~[oshi-core-6.4.10.jar%2395!/:6.4.10]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.SystemReport.lambda$new$2(SystemReport.java:56) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.SystemReport.ignoreErrors(SystemReport.java:87) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.SystemReport.<init>(SystemReport.java:56) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.CrashReport.<init>(CrashReport.java:32) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.CrashReport.preload(CrashReport.java:206) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:115) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2362!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:216) ~[securejarhandler-3.0.8.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 29 more
+[13Nov2025 07:43:53.886] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event...
+[13Nov2025 07:43:53.887] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[13Nov2025 07:43:53.889] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[13Nov2025 07:43:53.919] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.206, for MC 1.21.1
+[13Nov2025 07:43:54.035] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/fertility.toml
+[13Nov2025 07:43:54.035] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/seasons.toml
+[13Nov2025 07:43:54.110] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Starting Bean Context
+[13Nov2025 07:43:54.145] [modloading-worker-0/INFO] [com.iafenvoy.iceandfire.IceAndFire/]: Ice And Fire common config version match.
+[13Nov2025 07:43:54.261] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Bean Context loaded in 151 ms
+[13Nov2025 07:43:54.299] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.11.
+[13Nov2025 07:43:54.644] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[13Nov2025 07:43:54.675] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[13Nov2025 07:44:00.329] [modloading-sync-worker/INFO] [Puzzles Lib/]: Dispatching loading event for config mutantmonsters-common.toml
+[13Nov2025 07:44:00.359] [modloading-worker-0/INFO] [com.iafenvoy.jupiter.Jupiter/]: 0 Jupiter entrypoint(s) detected: 
+[13Nov2025 07:44:00.647] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[13Nov2025 07:44:00.941] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13Nov2025 07:44:00.948] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[13Nov2025 07:44:01.157] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2holaa/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23154!/assets/.mcassetsroot' uses unexpected schema
+[13Nov2025 07:44:01.157] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2holaa/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23154!/data/.mcassetsroot' uses unexpected schema
+[13Nov2025 07:44:01.305] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 21.1.0 Target: null
+[13Nov2025 07:44:01.306] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json?neoforge=only
+[13Nov2025 07:44:01.665] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [dynamiclights] Found status: UP_TO_DATE Current: 1.9+mod Target: null
+[13Nov2025 07:44:01.666] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
+[13Nov2025 07:44:01.718] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.0-beta.52 Target: 1.21.1-6.0.0-beta.52
+[13Nov2025 07:44:01.719] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_neoforge.json
+[13Nov2025 07:44:01.767] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 5.6.2.384 Target: null
+[13Nov2025 07:44:01.768] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_sleep] Starting version check at https://api.modrinth.com/updates/WTzuSu8P/forge_updates.json?neoforge=only
+[13Nov2025 07:44:01.937] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_sleep] Found status: AHEAD Current: 1-v.3.2.2 Target: null
+[13Nov2025 07:44:01.937] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.83
+[13Nov2025 07:44:02.235] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.6.3003 Target: null
+[13Nov2025 07:44:02.235] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks_neoforge.json
+[13Nov2025 07:44:02.348] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 3.0.2.129 Target: null
+[13Nov2025 07:44:02.349] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [forgeconfigapiport] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/forgeconfigapiport.json
+[13Nov2025 07:44:02.433] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [forgeconfigapiport] Found status: OUTDATED Current: 21.1.4 Target: 21.1.6
+[13Nov2025 07:44:02.433] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[13Nov2025 07:44:02.630] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.10 Target: 1.10.1
+[13Nov2025 07:44:02.631] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/neoforge-update.json
+[13Nov2025 07:44:02.726] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.4.8 Target: null
+[13Nov2025 07:44:02.726] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[13Nov2025 07:44:02.729] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 21.1.38 Target: 21.1.39
+[13Nov2025 07:44:02.730] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [extragems] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/ExtraGems_NEO.json
+[13Nov2025 07:44:02.825] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [extragems] Found status: UP_TO_DATE Current: 3.0.5 Target: null
+[13Nov2025 07:44:03.730] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag choccos_mobs:racoon_search_loot as it is missing following references: 
+	spelunking_secrets:silverfish (from mod/choccos_mobs)
+	spelunking_secrets:salt (from mod/choccos_mobs)
+	camping:sweet_berry_jam (from mod/choccos_mobs)
+	camping:blueberry_jam (from mod/choccos_mobs)
+	camping:burned_marshmallow (from mod/choccos_mobs)
+	rumpnissar:baby_rumpnissar (from mod/choccos_mobs)
+[13Nov2025 07:44:04.143] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/pixie_dust_milky_tea
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%2398!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2362!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[13Nov2025 07:44:04.162] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_ice_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%2398!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2362!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[13Nov2025 07:44:04.217] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_lightning_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%2398!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2362!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[13Nov2025 07:44:04.230] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/ghost_cream
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%2398!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2362!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[13Nov2025 07:44:04.240] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_fire_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%2398!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23154!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2357!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2362!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[13Nov2025 07:44:04.248] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3945 recipes
+[13Nov2025 07:44:04.661] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [dungeons_arise:find_thornborn_towers, dungeons_arise:find_fishing_hut]
+[13Nov2025 07:44:04.661] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 4039 advancements
+[13Nov2025 07:44:04.667] [main/INFO] [com.iafenvoy.iceandfire.IceAndFire/]: Ice And Fire common config version match.
+[13Nov2025 07:44:04.668] [main/INFO] [com.iafenvoy.jupiter.Jupiter/]: Successfully reload 1 server config(s).
+[13Nov2025 07:44:04.673] [main/INFO] [Curios API/]: Loaded 11 curio slots
+[13Nov2025 07:44:04.677] [main/INFO] [Curios API/]: Loaded 11 curio entities
+[13Nov2025 07:44:08.368] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[13Nov2025 07:44:08.368] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Nov2025 07:44:08.368] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Nov2025 07:44:08.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Nov2025 07:44:08.485] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Nov2025 07:44:08.528] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Nov2025 07:44:08.559] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Nov2025 07:44:08.559] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Nov2025 07:44:08.559] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Nov2025 07:44:08.560] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Nov2025 07:44:08.571] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[13Nov2025 07:44:08.572] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config mutantmonsters-server.toml
+[13Nov2025 07:44:08.714] [Server thread/INFO] [Framework/]: Loading server configs...
+[13Nov2025 07:44:08.728] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Nov2025 07:44:08.738] [Server thread/INFO] [CheckedThreadLocalRandom/]: Enforcing safe world random access
+[13Nov2025 07:44:09.083] [Server thread/INFO] [TheSpeedyObjectFactory/]: Using TheSpeedyObjectFactory with Unsafe
+[13Nov2025 07:44:09.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[13Nov2025 07:44:11.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[13Nov2025 07:44:11.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[13Nov2025 07:44:11.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[13Nov2025 07:44:11.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[13Nov2025 07:44:11.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Nov2025 07:44:12.887] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Nov2025 07:44:12.887] [c2me-worker-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Nov2025 07:44:12.888] [c2me-worker-0/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Nov2025 07:44:13.443] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[13Nov2025 07:44:13.931] [c2me-worker-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[13Nov2025 07:44:14.406] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[13Nov2025 07:44:14.889] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[13Nov2025 07:44:15.388] [c2me-worker-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[13Nov2025 07:44:15.837] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3951 ms
+[13Nov2025 07:44:15.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.267s)! For help, type "help"
+[13Nov2025 07:44:16.014] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[13Nov2025 07:44:16.017] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[13Nov2025 07:44:16.018] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@8d8dcaf for service interface journeymap.api.services.ClientPlatformService
+[13Nov2025 07:44:16.020] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@57aad167 for service interface journeymap.api.services.CommonPlatformService
+[13Nov2025 07:44:22.215] [Server thread/WARN] [C2ME HookCompatibility/]: Certain optimizations may be disabled because ChunkDataEvent.Save is used by: [@SubscribeEvent: class dev.architectury.event.forge.EventHandlerImplCommon eventChunkDataEvent(Lnet/neoforged/neoforge/event/level/ChunkDataEvent$Save;)V]
+[13Nov2025 07:44:48.207] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joaquin11[/192.168.193.207:50595] logged in with entity id 441 at (285.49603124546064, 63.875, 167.77174065881982)
+[13Nov2025 07:44:48.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 joined the game
+[13Nov2025 07:44:48.325] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[13Nov2025 07:44:50.615] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
+[13Nov2025 07:45:58.553] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xFrann7x[/192.168.193.39:52359] logged in with entity id 9735 at (-3171.8335836252254, 69.25220334025373, -3353.052481979466)
+[13Nov2025 07:45:58.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x joined the game
+[13Nov2025 07:45:58.578] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[13Nov2025 07:46:01.334] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[13Nov2025 07:46:19.904] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xFrann7x moved too quickly! 1.4776000624860899,13.62267825091807,0.36313379846706084
+[13Nov2025 07:46:23.358] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[13Nov2025 07:46:23.441] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[13Nov2025 07:47:23.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x fell from a high place
+[13Nov2025 07:55:59.228] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joaquin11 lost connection: Disconnected
+[13Nov2025 07:55:59.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 left the game
+[13Nov2025 07:56:59.159] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xFrann7x lost connection: Disconnected
+[13Nov2025 07:56:59.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x left the game
